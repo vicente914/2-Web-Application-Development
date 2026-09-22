@@ -1,0 +1,18 @@
+{
+ "version": "2.0.0",
+ "tasks": [
+    {
+        "label": "PHPUnit (proyecto activo)",
+        "type": "shell",
+        "command": "docker compose exec -w /var/www/projects/${input:proyecto} webphpunit tests",
+        "problemMatcher": []
+    }
+ ],
+ "inputs": [
+    {
+        "id": "proyecto",
+        "type": "promptString",
+        "description": "Nombre de la carpeta del proyecto"
+    }
+ ]
+}
