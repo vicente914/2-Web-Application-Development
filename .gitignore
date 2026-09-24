@@ -3,5 +3,6 @@
 *.zip
 *.rar
 *.pdf
+*.odt#
 Optativa-FullStack/node_modules
 Entorno_Servidor/.idea
